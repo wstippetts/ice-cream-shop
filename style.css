@@ -1,0 +1,35 @@
+header {
+  background-color: blue;
+  color: blanchedalmond;
+}
+
+footer {
+  background-color: blue;
+  color: blanchedalmond;
+}
+
+
+
+.hero {
+  min-height: 100vh;
+  background-color: chocolate;
+  color: pink;
+}
+
+.cart {
+  background-color: darkslategrey;
+  color: lightskyblue;
+  min-height: calc(100vh - 200px);
+}
+
+
+.saleCard {
+  border: 3px solid lightsteelblue;
+  box-shadow: 5px 5px 10px;
+  border-radius: 10px;
+}
+
+.imgCard {
+  width: 120PX;
+  object-fit: cover;
+}

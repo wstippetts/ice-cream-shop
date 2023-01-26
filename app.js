@@ -1,4 +1,4 @@
-//#region - objects
+// objects
 
 
 const iceCream = [{
@@ -35,8 +35,8 @@ const containers = [{
   price: 4
 }]
 
-//#endregion
-//#region - arrays and variables
+
+// arrays and variables
 
 let gBuild = [{
   gIce: '',
@@ -46,12 +46,12 @@ let gBuild = [{
 let cart = []
 
 let ice = ''
-let top = ''
+// let top = ''
 let cup = ''
 
-//#endregion
 
-//#region - draw functions
+
+// draw functions
 
 
 
@@ -60,21 +60,22 @@ function drawCart() {
 }
 
 function drawIce() {
-  let icElem = document.getElementById('iceCream')
+  let icElem = document.getElementById('Creams')
   let creamLineup = ''
   iceCream.forEach(o => {
     i = 0
-    creamLineup = +
+    creamLineup +=
       `
-<div class="col-12 col-md-4 saleCard m-3 p-3 text-center" onclick="holdIce(iceCream[i].name)">
+<div class="col-12 col-md-4 saleCard m-3 p-3 text-center" onclick="holdIce()">
               <img class="imgCard"
-                src="https://celebratingsweets.com/wp-content/uploads/2014/04/Cookie-Dough-Ice-Cream-1-5.jpg">
-              <p>Style: Cookie Dough</p>
+                src="${o.image}">
+              <p>Style: ${o.name}</p>
 
             </div>
 `
     i++
   })
+  icElem.innerHTML = creamLineup
 }
 
 function drawTops() {
@@ -112,6 +113,6 @@ function holdCup(cont) {
 
 
 
-//#endregion 
+
 
 drawIce()
