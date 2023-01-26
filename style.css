@@ -1,35 +1,50 @@
 header {
-  background-color: blue;
-  color: blanchedalmond;
+    background-color: blue;
+    color: blanchedalmond;
 }
 
 footer {
-  background-color: blue;
-  color: blanchedalmond;
+    background-color: blue;
+    color: blanchedalmond;
 }
 
 
 
 .hero {
-  min-height: 100vh;
-  background-color: chocolate;
-  color: pink;
+    min-height: 100vh;
+    background-color: chocolate;
+    color: pink;
 }
 
 .cart {
-  background-color: darkslategrey;
-  color: lightskyblue;
-  min-height: calc(100vh - 200px);
+    background-color: darkslategrey;
+    color: lightskyblue;
+    min-height: calc(100vh - 200px);
+}
+
+.cartCard {
+    background-color: rgba(210, 105, 30, 0.473);
+    color: lightseagreen;
+    box-shadow: 5px 5px 10px;
+    border: 1px solid lightcoral;
+    border-radius: 10px;
+}
+
+.cartImg {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
 }
 
 
 .saleCard {
-  border: 3px solid lightsteelblue;
-  box-shadow: 5px 5px 10px;
-  border-radius: 10px;
+    border: 3px solid lightsteelblue;
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
 }
 
 .imgCard {
-  width: 120PX;
-  object-fit: cover;
+    width: 120PX;
+    height: 120px;
+    object-fit: cover;
 }

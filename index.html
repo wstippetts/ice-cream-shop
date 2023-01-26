@@ -35,7 +35,7 @@
   </style>
 </head>
 
-<body>
+<body class="debug">
 
   <header class="text-center p-3">
     <h1>GLACIER ICE CREAM</h1>
@@ -47,6 +47,7 @@
       <div class="row">
         <div class="col-12 col-md-8 hero">
           <div class="row" id="Creams">
+            <!-- #region - template-->
             <!-- template -->
 
             <!-- <div class="col-12 col-md-4 saleCard m-3 p-3 text-center" onclick="`${holdIce('Cookie Dough')}`">
@@ -56,14 +57,42 @@
 
             </div> -->
             <!-- end template -->
+            <!-- #endregion -->
           </div>
+          <div class="row" id="Toppings" hidden></div>
+          <div class="row" id="Cups" hidden></div>
         </div>
-        <div class="col-12 col-md-4 cart">
+        <div class="col-12 col-md-4 cart ">
+          <div class="row">
+
+            <div class="py-3 d-flex justify-content-between">
+              <img class="cartImg"
+                src="https://celebratingsweets.com/wp-content/uploads/2014/04/Cookie-Dough-Ice-Cream-1-5.jpg" alt="">
+              <p>Cookie Dough</p>
+              <img class="cartImg" src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Sprinkles2.jpg" alt="">
+              <p>sprinkles</p>
+              <img class="cartImg" src="https://m.media-amazon.com/images/I/71VNjBMakfL._SL1500_.jpg" alt="">
+              <p>Waffle Cone</p>
+            </div>
+
+          </div>
+          <div class="row">
+            <h3>SubTotal: $239048</h3>
+          </div>
+          <div class="row">
+            <h2>Total: $654654654</h2>
+          </div>
+          <div>
+
+          </div>
+
 
         </div>
 
       </div>
-      <!-- <div class="row cart">
+      <!-- <div class="row cart cartCard">
+        <div>
+        </div>
 
       </div> -->
     </div>
